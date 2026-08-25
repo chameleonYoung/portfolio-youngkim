@@ -4,7 +4,7 @@ import jakarta.persistence.*
 
 @Entity
 class Experience(
-    titie:String,
+    title:String,
     description:String,
     startYear: Int,
     startMonth:Int,
@@ -18,7 +18,7 @@ class Experience(
     @Column(name = "experience_id")
     var id: Long? = null
 
-    var title:String = titie
+    var title:String = title
 
     var description:String = description
 

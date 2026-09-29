@@ -181,6 +181,5 @@ class DataInitializer(
             )
         )
         projectRepository.saveAll(mutableListOf(project1, project2))
-
     }
 }

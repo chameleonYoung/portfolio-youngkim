@@ -94,7 +94,7 @@ class ProjectRepositoryTest(
     @Test
     fun testFindAllByIsActive() {
         println("----- findAllByIsActive 테스트 시작 -------")
-        val projects = projectRepository.findByIsActive(true)
+        val projects = projectRepository.findAllByIsActive(true)
         assertThat(projects).hasSize(DATA_SIZE)
         println("experinces.size: ${projects.size}")
 

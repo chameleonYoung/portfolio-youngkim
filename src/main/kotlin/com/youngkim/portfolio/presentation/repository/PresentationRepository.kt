@@ -29,7 +29,7 @@ class PresentationRepository(
         return achievementRepository.findAllByIsActive(true)
     }
 
-    fun getActiveExperience(): List<Experience> {
+    fun getActiveExperiences(): List<Experience> {
         return experienceRepository.findAllByIsActive(true)
     }
     fun getActiveIntroductions(): List<Introduction> {
